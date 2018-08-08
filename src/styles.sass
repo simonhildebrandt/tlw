@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto')
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono')
+
+@import '../node_modules/sierra-library/src/variables'
+
+// Insert Sierra overrides here
+//$body-bg: red
+
+@import '../node_modules/sierra-library/src/library'
+
+.app
+  font-family: Roboto
+
+.players
+  transform: rotate(90deg)
+  transform-origin: left bottom
+  position: absolute
+  margin-top: -25px
+  //width: 100px
+  overflow: scroll
+  //display: flex
+
+  .player-name
+    margin-right: 5px
+
+.turns
+  margin-left: 40px
+  background: rgba(255, 255, 255, 0.1)
+  padding: 5px
+  width: 158px
+
+  .turn
+    font-size: 40px
+    font-family: Roboto Mono
+    font-weight: 700
+    line-height: 40px
+    display: flex
+    margin-top: 5px
+
+    .letter
+      border: 1px solid rgba(255,255,255, 0.1)
+      padding: 5px 10px
+      margin-right: 5px
+      background: rgba(255, 255, 255, 0.1)
