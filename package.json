@@ -2,7 +2,7 @@
   "license": "ISC",
   "scripts": {
     "serve": "live-server --port=9000 public/",
-    "watch": "watchify src/index.js -o public/index.js -t [ babelify --presets [ '@babel/preset-env' '@babel/preset-react' '@babel/preset-es2015' ] ] -p [ css-modulesify -o public/main.css ]",
+    "watch": "watchify src/index.js -o public/index.js -t [ babelify --presets [ '@babel/preset-env' '@babel/preset-react' ] ] -p [ css-modulesify -o public/main.css ]",
     "sass": "node-sass --watch src/styles.sass src/styles.css"
   },
   "dependencies": {
