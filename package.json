@@ -18,7 +18,7 @@
     "emmett": "^3.1.1",
     "live-server": "^1.2.0",
     "mongodb": "^3.0.10",
-    "node-sass": "^4.9.2",
+    "node-sass": "^7.0.0",
     "npx": "^10.2.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
